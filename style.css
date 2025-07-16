@@ -7,3 +7,27 @@
   font-weight: 400;
   font-style: normal;
 }
+.body{
+      font-family: "Work Sans", sans-serif;
+}
+/* Navigation */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    display: flex;
+   
+}
+.nav ul li a{
+     text-decoration: none;
+}
