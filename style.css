@@ -20,6 +20,16 @@
     color: #727272;
 }
 
+.btn-primary{
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .header{
     width: 100%;
     background-color: rgba(255, 144, 14, 0.1);
@@ -57,4 +67,31 @@
      text-decoration: none;
      color: #424242;
      font-size: 18px;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.banner-title h1{
+    font-weight: bold;
+    font-size: 63px;
+}
+
+.banner-content p{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.banner img{
+    margin: 50px 240px 45px 240px;
+}
+
+@media screen and (max-width:576px) {
+    .nav, .banner, .navlist{
+        flex-direction: column;
+    }
 }
