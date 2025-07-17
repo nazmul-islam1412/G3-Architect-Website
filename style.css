@@ -45,11 +45,7 @@
     justify-content: space-between;
     }
 
-.nav h3{
-    font-weight: bold;
-    font-size: 45px;
-    margin-top: 50px;
-}
+
 .navlist{
     display: flex;
     justify-content: space-between;
@@ -89,9 +85,26 @@
 .banner img{
     margin: 50px 240px 45px 240px;
 }
+/* Media Query */
 
+/* Small device */
 @media screen and (max-width:576px) {
-    .nav, .banner, .navlist{
-        flex-direction: column;
-    }
+    .nav, .navlist {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+   .navlist {
+    gap: 15px;
+    margin: 15px 40px 0 30px;
+  }
+   .banner img {
+    width: 100%;
+  }
+  .nav h1{
+    margin: 0 50px;
+  }
+  
+
+
 }
