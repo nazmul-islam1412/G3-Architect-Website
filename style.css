@@ -10,17 +10,27 @@
 .body{
       font-family: "Work Sans", sans-serif;
 }
+
+.dark2{
+    color: #424242;
+}
+
+.dark3{
+    color: #727272;
+}
+
 /* Navigation */
 .nav{
     display: flex;
     justify-content: space-between;
+    margin: 50px 250px 102px 228px;
 }
 
 .navlist{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-
+    
 }
 
 .nav ul li {
@@ -30,4 +40,5 @@
 }
 .nav ul li a{
      text-decoration: none;
+     color: #424242;
 }
