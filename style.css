@@ -30,6 +30,12 @@
     font-weight: 600;
 }
 
+.btn-primary:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e67e00;
+}
+
 .header{
     width: 100%;
     background-color: rgba(255, 144, 14, 0.1);
@@ -88,6 +94,46 @@ section > div{
 }
 .banner img{
     margin: 50px 240px 45px 240px;
+}
+
+/* Quick section */
+
+.quick{
+    display: flex;
+    justify-content: center;
+    gap: 73px;
+    margin: 85px 300px 0 300px;
+    align-items: center;
+}
+
+#quick-list{
+    font-size: 45px;
+    font-weight: 500;
+}
+#of-our{
+    font-size: 45px;
+    font-weight: bold;
+}
+#features{
+    color: #FF900E;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.quick-img{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.quick-img img{
+    width: 100%;
+    height: auto;
+}
+
+.quick-banner-title p{
+    font-size: 16px;
 }
 
 /* Media Query */
