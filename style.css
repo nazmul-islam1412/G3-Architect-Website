@@ -169,5 +169,17 @@ main{
      margin: 30px auto 0 auto;
     text-align: center;
   }
-  
+}
+
+/* Medium Device */
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .quick{
+        flex-direction: column;
+    }
+
+    .quick-banner-title{
+     margin: 50px auto;
+    text-align: center;
+  }
 }
