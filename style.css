@@ -36,6 +36,10 @@
     padding: 20px 0;
 }
 
+section > div{
+    margin-bottom: 130px;
+}
+
 /* Navigation */
 .nav{
     max-width: 1440px;
@@ -85,6 +89,7 @@
 .banner img{
     margin: 50px 240px 45px 240px;
 }
+
 /* Media Query */
 
 /* Small device */
@@ -105,6 +110,4 @@
     margin: 0 50px;
   }
   
-
-
 }
