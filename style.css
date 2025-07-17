@@ -42,10 +42,9 @@
     padding: 20px 0;
 }
 
-section > div{
-    margin-bottom: 130px;
+main > section{
+    margin-top: 130px;
 }
-
 /* Navigation */
 .nav{
     max-width: 1440px;
@@ -96,13 +95,17 @@ section > div{
     margin: 50px 240px 45px 240px;
 }
 
+/* Main */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Quick section */
 
 .quick{
     display: flex;
-    justify-content: center;
-    gap: 73px;
-    margin: 85px 300px 0 300px;
     align-items: center;
 }
 
@@ -132,8 +135,9 @@ section > div{
     height: auto;
 }
 
-.quick-banner-title p{
-    font-size: 16px;
+.quick-banner-title {
+   margin-left: 130px;
+   max-width: 530px;
 }
 
 /* Media Query */
