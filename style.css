@@ -18,8 +18,10 @@
 
 .dark3{
     color: #727272;
+}.text-primary{
+    color: #FF900E;
 }
-
+  
 .btn-primary{
     color: white;
     background-color: #FF900E;
@@ -144,7 +146,7 @@ main{
 
 /* Small device */
 @media screen and (max-width:576px) {
-    .nav, .navlist {
+    .nav, .navlist ,.quick {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -158,6 +160,14 @@ main{
   }
   .nav h1{
     margin: 0 50px;
+  }
+
+  .quick-img{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .quick-banner-title{
+     margin: 30px auto 0 auto;
+    text-align: center;
   }
   
 }
