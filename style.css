@@ -215,8 +215,23 @@ main{
     text-align: center;
   }
 }
+ .enjoy-sec{
+    flex-direction: column;
+ }
 
+ .enjoy-img img {
+    width: 100%;
+    height: auto;
+    max-width: 708px;
+    display: flex;
+    flex-direction: column;
+}
 
+.enjoy-img button {
+    margin-top: 20px;
+    position: static;
+    margin-left: 100px;
+  }
 
 /* Medium Device */
 
