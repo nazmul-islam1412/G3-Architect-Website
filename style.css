@@ -244,4 +244,10 @@ main{
      margin: 50px auto;
     text-align: center;
   }
+  .enjoy-img img{
+    margin-left: 50px;
+  }
+  .enjoy-img button{
+    margin-left: 300px;
+  }
 }
