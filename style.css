@@ -142,6 +142,51 @@ main{
    max-width: 530px;
 }
 
+
+/* Enjoy Section */
+
+.enjoy-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 145px;
+}
+
+.enjoy h2{
+    border-left: #FF900E solid 5px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.enjoy p{
+    font-size: 16px;
+}
+
+.enjoy-box{
+    padding: 30px 42px 30px 30px;
+    border-radius: 8px;
+    box-shadow: #424242;
+}
+
+.enjoy-box h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.enjoy-box p{
+    font-size: 16px;
+}
+
+.enjoy-img img{
+    height: 982px;
+    width: 708px;
+}
+
+.enjoy-img button{
+    margin-left: -60px;
+    margin-top: -60px;
+}
+
 /* Media Query */
 
 /* Small device */
@@ -170,6 +215,8 @@ main{
     text-align: center;
   }
 }
+
+
 
 /* Medium Device */
 
