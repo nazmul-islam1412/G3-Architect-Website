@@ -187,6 +187,46 @@ main{
     margin-top: -60px;
 }
 
+/* Fact Section */
+
+.facts h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+.fact-sec{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 180px;
+}
+
+.icons-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 120px;
+}
+
+.parts{
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+
+.parts h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.parts p{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Media Query */
 
 /* Small device */
@@ -215,23 +255,8 @@ main{
     text-align: center;
   }
 }
- .enjoy-sec{
-    flex-direction: column;
- }
+ 
 
- .enjoy-img img {
-    width: 100%;
-    height: auto;
-    max-width: 708px;
-    display: flex;
-    flex-direction: column;
-}
-
-.enjoy-img button {
-    margin-top: 20px;
-    position: static;
-    margin-left: 150px;
-  }
 
 /* Medium Device */
 
@@ -243,11 +268,5 @@ main{
     .quick-banner-title{
      margin: 50px auto;
     text-align: center;
-  }
-  .enjoy-img img{
-    margin-left: 50px;
-  }
-  .enjoy-img button{
-    margin-left: 300px;
   }
 }
